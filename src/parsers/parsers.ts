@@ -82,6 +82,7 @@ import { OldLibraryCheckerProblemParser } from './problem/OldLibraryCheckerProbl
 import { OmegaUpProblemParser } from './problem/OmegaUpProblemParser';
 import { PandaOnlineJudgeProblemParser } from './problem/PandaOnlineJudgeProblemParser';
 import { PEGJudgeProblemParser } from './problem/PEGJudgeProblemParser';
+import { PintiaProblemParser } from './problem/PintiaProblemParser';
 import { POJProblemParser } from './problem/POJProblemParser';
 import { QDUOJProblemParser } from './problem/QDUOJProblemParser';
 import { SPOJProblemParser } from './problem/SPOJProblemParser';
@@ -222,6 +223,8 @@ export const parsers: Parser[] = [
 
   new PEGJudgeProblemParser(),
   new PEGJudgeContestParser(),
+
+  new PintiaProblemParser(),
 
   new POJProblemParser(),
   new POJContestParser(),
